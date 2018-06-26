@@ -15,20 +15,9 @@ class App extends Component {
      };
    }
 
-   deleteToDoHandler(delete) {
-     //const delete = this.state.todos.filter();
-     //const deleteTodo = delete[index];
-     //this.setState({todos: [deleteToDo]});
-     //b = this.state.todos.filter(e => e.todos === [{ description: 'Walk the cat', isCompleted: true }]);
-
-     //b.forEach(f => a.splice(a.findIndex(e => e.todos === f.todos),1));
-
-     //this.setState({todos});
-
+   deleteToDoHandler() {
   const value === this.state.todos[0];
-  const delete === value;
-
-const filtered = this.state.todos.filter(deleteToDoHandler);
+  const filtered = this.state.todos.filter(value);
      console.log(filtered);
    }
 
